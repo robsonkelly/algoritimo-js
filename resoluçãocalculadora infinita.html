@@ -1,0 +1,24 @@
+<script>
+	let entrada = 0;
+    let acumulador = 0;
+    let operacao = '';
+    while (operacao != 's') {
+	    entrada = parseFloat(prompt ("entre com um numero"));
+	    operacao = prompt ("entre com a operação (/,+,-,*) ou s para sair");
+	 
+	 if (operacao == "/") {acumulador /= entrada;}  
+     else if ( operacao == "+") {acumulador += entrada;}
+     else if (operacao == "-") {acumulador -= entrada;}
+     else if (operacao == "*") {acumulador *= entrada;}
+	  
+	 alert ("valor acumulado " + acumulador ); 
+
+}
+
+
+
+
+
+
+
+</script>
